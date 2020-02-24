@@ -2,3 +2,12 @@ nav {
   display: flex;
   justify-content: flex-end;
 }
+
+.sign-in-info {
+  font-size: 80%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#sign-in-btn {
+  font-family: 'Montserrat', sans-serif;
+}
