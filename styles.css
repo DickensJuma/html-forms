@@ -61,5 +61,10 @@ nav .btn {
   }
 
   form {
-    text-align: center;
+    display: flex;
+
+  }
+
+  fieldset {
+    display: flex;
   }
