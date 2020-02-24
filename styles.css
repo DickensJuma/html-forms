@@ -8,10 +8,11 @@ nav {
 }
 
 .sign-in-info {
-  font-size: 80%;
+  font-size: 11px;
   font-family: 'Montserrat', sans-serif;
 }
 
 nav .btn {
   width: 100px;
+  margin-right: 30px;
 }
