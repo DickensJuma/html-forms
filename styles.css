@@ -102,6 +102,10 @@ input {
   height: 30px;
 }
 
+.phone-condition {
+  font-size: 10px;
+}
+
 form .btn {
   background-color: #0077c5;
   color: white;
