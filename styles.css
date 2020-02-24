@@ -16,7 +16,8 @@ nav {
 
 nav .btn {
   width: 100px;
-  margin-right: 20px;  
+  margin-right: 20px;
+  margin-left: 10px;
   background-color: #0077c5;
   color: white;
   border-radius: 5px;
@@ -40,14 +41,17 @@ nav .btn {
     font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
 
-  .services, div {
-    margin-right: 9px;
+  .services, div {    
     color: #8d9095;
     font-size: 18px;
   }
 
   .services, div, span, h1 {
     text-align: center;
+  }
+
+  h1 {
+    margin-bottom: 10px;
   }
 
   img {
