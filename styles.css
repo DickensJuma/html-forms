@@ -2,7 +2,8 @@
 body {
   background-color: #eceef1;
 }
-a{
+
+a {
   text-decoration: none;
 }
 
@@ -90,10 +91,6 @@ fieldset {
 label {
   padding-left: 30px;
   padding-bottom: 30px;
-}
-
-.labels-name {
-
 }
 
 input {
