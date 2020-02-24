@@ -136,11 +136,15 @@ footer {
   margin-bottom: 20px;
 }
 
-.legal-terms a {
+.legal-terms a{
   font-size: 13px;
   font-family: 'Lato', sans-serif;
   color: #717877;
   margin-right: 10px;
+}
+
+.legal-terms a:hover {
+  text-decoration: underline;
 }
 
 .footer-info {
