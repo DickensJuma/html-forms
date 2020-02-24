@@ -41,9 +41,10 @@ nav .btn {
     font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
 
-  .services, div {
+  .services div {
     color: #8d9095;
     font-size: 18px;
+    margin-bottom: 20px;
   }
 
   .services, div, span, h1 {
@@ -57,9 +58,4 @@ nav .btn {
   img {
     height: 23px;
     width: 23px;
-  }
-
-  form {
-    display: flex;
-    justify-content: center;
   }
