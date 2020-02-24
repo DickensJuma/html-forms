@@ -10,6 +10,8 @@ a {
 nav {
   display: flex;
   justify-content: flex-end;
+  font-family: 'Lato', sans-serif;
+  color: #717877;
 }
 
 .sign-in-info {
@@ -19,7 +21,7 @@ nav {
 }
 
 nav .btn {
-  width: 100px;
+  width: 110px;
   margin-right: 20px;
   margin-left: 10px;
   background-color: #0077c5;
