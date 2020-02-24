@@ -66,14 +66,18 @@ nav .btn {
 
   }
 
+  .form-heading {
+    margin-bottom: 20px;
+  }
+
   fieldset {
     display: flex;
   }
 
   form .btn {
-    width: 100px;    
     background-color: #0077c5;
     color: white;
     border-radius: 5px;
     border: 1px solid black;
+    margin-top: 10px;
   }
