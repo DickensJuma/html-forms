@@ -88,6 +88,7 @@ fieldset {
   padding: 20px 0 0 0;
   font-family: 'Lato', sans-serif;
   color: #717877;
+  margin-bottom: 20px;
 }
 
 label {
@@ -129,4 +130,21 @@ form .btn {
   height: 50px;
   align-items: center;
   justify-content: center;
+}
+
+footer {
+  margin-bottom: 20px;
+}
+
+.legal-terms a {
+  font-size: 13px;
+  font-family: 'Lato', sans-serif;
+  color: #717877;
+  margin-right: 10px;
+}
+
+.footer-info {
+  font-family: 'Lato', sans-serif;
+  color: #717877;
+  font-size: 12px;
 }
