@@ -63,7 +63,6 @@ nav .btn {
   form {
     display: flex;
     justify-content: center;
-
   }
 
   .form-heading {
@@ -72,6 +71,8 @@ nav .btn {
 
   fieldset {
     display: flex;
+    background-color: white;
+    padding: 10px 0 0 0;
   }
 
   form .btn {
@@ -80,4 +81,16 @@ nav .btn {
     border-radius: 5px;
     border: 1px solid black;
     margin-top: 10px;
+  }
+
+  .captcha {
+    display: flex;
+    background-color: #eceef1;
+    box-sizing: border-box;
+    font-size: 10px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    border: 0;
   }
