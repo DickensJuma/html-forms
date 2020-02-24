@@ -3,6 +3,26 @@ body{
   background-color: #eceef1;
 }
 
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sign-in-info {
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 150%;
+}
+
+nav .btn {
+  width: 100px;
+  margin-right: 30px;
+  margin-left: 20px;
+  background-color: #0077c5;
+  color: white;
+  border-radius: 5px;
+  border: 1px;
+
 header{
   display: flex;
   flex-direction: column;
@@ -36,4 +56,5 @@ text-align: center;
 img{
   height: 23px;
   width: 23px;
+
 }
