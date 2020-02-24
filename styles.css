@@ -62,6 +62,7 @@ nav .btn {
 
   form {
     display: flex;
+    justify-content: center;
 
   }
 
