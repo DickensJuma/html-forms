@@ -21,7 +21,7 @@ nav .btn {
   background-color: #0077c5;
   color: white;
   border-radius: 5px;
-  border: 1px;
+  border: 1px solid black;
 }
 
   header {
@@ -58,4 +58,8 @@ nav .btn {
   img {
     height: 23px;
     width: 23px;
+  }
+
+  form {
+    text-align: center;
   }
