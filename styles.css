@@ -2,6 +2,9 @@
 body {
   background-color: #eceef1;
 }
+a{
+  text-decoration: none;
+}
 
 nav {
   display: flex;
@@ -71,10 +74,17 @@ form {
   padding-right: 30px;
 }
 
+.account-info {
+  line-height: 30%;
+  font-size: 15px;
+}
+
 fieldset {
   display: flex;
   background-color: white;
-  padding: 10px 0 0 0;
+  padding: 20px 0 0 0;
+  font-family: 'Lato', sans-serif;
+  color: #717877;
 }
 
 label {
@@ -82,7 +92,12 @@ label {
   padding-bottom: 30px;
 }
 
+.labels-name {
+
+}
+
 input {
+  margin-top: 10px;
   width: 300px;
   height: 30px;
 }
@@ -96,6 +111,12 @@ form .btn {
   margin-left: 30px;
   width: 306px;
   height: 50px;
+  font-size: 15px;
+}
+
+.terms {
+  font-size: 12px;
+  line-height: 160%;
 }
 
 .captcha {
