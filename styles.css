@@ -12,6 +12,6 @@ nav {
   font-family: 'Montserrat', sans-serif;
 }
 
-#sign-in-btn {
-  font-family: 'Montserrat', sans-serif;
+nav .btn {
+  width: 100px;
 }
