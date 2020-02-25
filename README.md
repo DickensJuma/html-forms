@@ -5,7 +5,7 @@
 
 ![screenshot](/img/hmlformsscreenshot.png)
 
-The page tries to clone the actual YouTube front end.
+The page tries to clone the actual Mint.com sign up page.
 
 ## Built With
 
