@@ -38,28 +38,27 @@ header {
   display: flex;
   flex-direction: column;
   font-size: 20px;
-  color: #8d9095;  
+  color: #8d9095;
   font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 20px;
 }
 
 .services {
   display: flex;
   justify-content: center;
   font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-div {
-  text-align: center;
-}
-
-.services div {
-  color: #8d9095;
-  font-size: 18px;
-  margin-bottom: 20px;
+  align-items: center;
 }
 
 h1 {
   margin-bottom: 10px;
+  text-align: center;
+}
+
+.image-description {
+  float: right;
+  margin-right: 12px;
+  margin-left: 7px;
 }
 
 img {
@@ -76,6 +75,7 @@ form {
   margin-bottom: 20px;
   padding-left: 30px;
   padding-right: 30px;
+  text-align: center;
 }
 
 .account-info {
@@ -127,6 +127,7 @@ form .btn {
   line-height: 160%;
   font-style: italic;
   margin-bottom: 35px;
+  text-align: center;
 }
 
 .captcha {
@@ -140,6 +141,7 @@ form .btn {
 
 footer {
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .legal-terms a {
