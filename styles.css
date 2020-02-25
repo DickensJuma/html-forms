@@ -1,0 +1,166 @@
+body {
+  background-color: #eceef1;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav,
+fieldset,
+.legal-terms a,
+.footer-info {
+  font-family: 'Lato', sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  color: #717877;
+}
+
+.sign-in-info {
+  font-size: 12px;
+  line-height: 150%;
+}
+
+nav .btn {
+  width: 110px;
+  margin-right: 20px;
+  margin-left: 10px;
+  background-color: #0077c5;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  color: #8d9095;
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 10px;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  align-items: center;
+}
+
+.intuit-logo {
+  height: 60px;
+  width: 150px;
+}
+
+.forms-header {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.image-description {
+  float: right;
+  margin-right: 12px;
+  margin-left: 7px;
+}
+
+img {
+  height: 23px;
+  width: 23px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+.form-heading {
+  margin-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+}
+
+.account-info {
+  line-height: 30%;
+  font-size: 15px;
+}
+
+.account-info a {
+  font-size: 12px;
+}
+
+fieldset {
+  display: flex;
+  background-color: white;
+  padding: 20px 0 0 0;
+  color: #717877;
+  margin-bottom: 20px;
+}
+
+label {
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+input {
+  margin-top: 10px;
+  width: 300px;
+  height: 30px;
+}
+
+.phone-condition {
+  font-size: 10px;
+}
+
+form .btn {
+  background-color: #0077c5;
+  color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-bottom: 35px;
+  width: 306px;
+  height: 50px;
+  font-size: 15px;
+}
+
+.terms {
+  font-size: 12px;
+  line-height: 160%;
+  font-style: italic;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.captcha {
+  display: flex;
+  background-color: #eceef1;
+  font-size: 10px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.legal-terms a {
+  font-size: 13px;
+  color: #717877;
+  margin-right: 10px;
+}
+
+.legal-terms a:hover {
+  text-decoration: underline;
+}
+
+.footer-info {
+  color: #717877;
+  font-size: 12px;
+}
