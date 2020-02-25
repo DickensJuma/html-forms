@@ -1,34 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link rel="stylesheet" type="text/css" href="./styles.css">
-<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-<script src="https://use.fontawesome.com/efff5ee4a8.js"></script>
+  <script src="https://use.fontawesome.com/3d4be7d80b.js"></script>
+  <link rel="stylesheet" type="text/css" href="./styles.css">
   <title>HTML FORMS</title>
 </head>
+
 <body>
+
   <nav>
     <div class="sign-in-info">
       <span>Already have an Intuit account?</span> <br>
       <a href="#">I forgot my User ID or Password</a>
     </div>
-
     <button class="btn"><i class="fa fa-lock"></i> Sign In</button>
-
   </nav>
-<header>
-		<h1>intuit</h1>
 
-	<div class="services">
+  <header>
+    <h1><img src="./img/intuit.png" alt="intuit"></h1>
+    <div class="services">
+      <div><img src="./img/turbotax.png" alt="mint"><span>tarbotax</span></div>
+      <div><img src="./img/quick.png" alt="mint"><span>quickbooks</span></div>
+      <div><img src="./img/mint.png" alt="mint"><span>mint</span></div>
 
-			<div><img src="./img/mint.png" alt="mint"><span>mint</span></div>
-			<div><img src="./img/quick.png" alt="mint"><span>quickBooks</span></div>
-			<div><img src="./img/turbotax.png" alt="mint"><span>tarbotax</span></div>
-
-</div>
+    </div>
   </header>
+  <!-- form section -->
+  <section>
+    <form method="POST">
+      <!-- info -->
+      <div class="info">
+        <h2>Create an Intuit account</h2>
+        <h5>One account for everything Intuit, including Mint.</h5>
+        <h5><a href="#">Learn More</a></h5>
+      </div>
+      <!-- inputs -->
+      <ul>
+        <li>
+          <label for="email">Email address
+            <input type="email" id="email">
+          </label>
+        </li>
+        <li>
+          <label for="phone">Phone (recommended)
+            <input type="text" id="phone">
+            <h6>Standard call, messaging or data rates may apply.</h6>
+          </label>
+        </li>
+        <li>
+          <label for="password">Password
+            <input type="password" id="password">
+          </label>
+        </li>
+        <li>
+          <label for="password"></label>
+          <button type="button" id="button" class="signup-btn" ><i class="fa fa-lock"></i>Create Account</button>
+          </label>
+        </li>
+
+      </ul>
+      <!-- policy -->
+      <div class="policy">
+        <em>By clicking Create account, you agree to our
+      <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy <br>Statement</a>.
+      </em>
+      </div><br><br>
+      <div class="form-footer">
+        Invisible reCAPTCHA by Google <a href="#">Privacy Statement</a> and <a href="#">Terms</a>of Use.
+      </div>
+     
+    </form>
+  </section>
 </body>
+
 </html>
