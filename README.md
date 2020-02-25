@@ -1,9 +1,9 @@
 
-# Embedding Images and Video Project
+# HTML forms
 
 > HTML forms
 
-![screenshot](/img/screenshot.png)
+![screenshot](/img/hmlformsscreenshot.png)
 
 The page tries to clone the actual YouTube front end.
 
