@@ -3,7 +3,7 @@
 
 > HTML forms
 
-![screenshot](/img/hmlformsscreenshot.png)
+![screenshot](img/hmlformsscreenshot.png)
 
 The page tries to clone the actual Mint.com sign up page.
 
@@ -14,7 +14,7 @@ The page tries to clone the actual Mint.com sign up page.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/DickensJuma/html-forms/ec1f45faaa5f3fb6cdad2d279404514e42d6eeb4/index.html)
+[Live Demo Link](https://rawcdn.githack.com/DickensJuma/html-forms/8303033610411624a7fd34e28d3b71cb50d63a01/index.html)
 
 
 ## Authors
