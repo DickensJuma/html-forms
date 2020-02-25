@@ -3,7 +3,7 @@
 
 > HTML forms
 
-![screenshot](img/hmlformsscreenshot.png)
+![screenshot](img/screenshot.png)
 
 The page tries to clone the actual Mint.com sign up page.
 
