@@ -3,20 +3,22 @@ body {
   background-color: #eceef1;
 }
 
+nav, fieldset, .legal terms a, .footer-info {
+  font-family: 'Lato', sans-serif;
+}
+
 a {
   text-decoration: none;
 }
 
 nav {
   display: flex;
-  justify-content: flex-end;
-  font-family: 'Lato', sans-serif;
+  justify-content: flex-end;  
   color: #717877;
 }
 
 .sign-in-info {
   font-size: 12px;
-  font-family: 'Montserrat', sans-serif;
   line-height: 150%;
 }
 
@@ -86,7 +88,6 @@ fieldset {
   display: flex;
   background-color: white;
   padding: 20px 0 0 0;
-  font-family: 'Lato', sans-serif;
   color: #717877;
   margin-bottom: 20px;
 }
@@ -138,7 +139,6 @@ footer {
 
 .legal-terms a{
   font-size: 13px;
-  font-family: 'Lato', sans-serif;
   color: #717877;
   margin-right: 10px;
 }
@@ -148,7 +148,6 @@ footer {
 }
 
 .footer-info {
-  font-family: 'Lato', sans-serif;
   color: #717877;
   font-size: 12px;
 }
