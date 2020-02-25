@@ -110,8 +110,7 @@ input {
 form .btn {
   background-color: #0077c5;
   color: white;
-  border-radius: 5px;
-  border: 1px solid black;
+  border-radius: 5px;  
   margin-top: 10px;
   margin-left: 30px;
   margin-bottom: 35px;
